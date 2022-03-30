@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FDL version="2.1">
+  <Form id="TestForm" width="1280" height="720" titletext="New Form">
+    <Layouts>
+      <Layout height="720" width="1280">
+        <Combo id="Combo00" taborder="0" text="Combo00" left="30" top="38" width="150" height="20"/>
+        <Button id="Button00" taborder="1" text="Button00" left="247" top="38" width="120" height="50" letterSpacing="1px" wordSpacing="1px" textwidth="1" font="normal 10pt/normal &quot;Arial&quot;" onclick="Button00_onclick"/>
+        <FileUpload id="FileUpload00" taborder="2" left="164" top="239" width="100" height="100" oncontextmenu="FileUpload00_oncontextmenu"/>
+      </Layout>
+    </Layouts>
+    <Script type="typescript" src="TestForm.xfdl.ts"></Script>
+  </Form>
+</FDL>
