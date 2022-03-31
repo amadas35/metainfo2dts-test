@@ -2,7 +2,7 @@
 // TypeScript Version: 3.8
 
 type ImplicitAny<Base> = Base & Record<string,any>;
-interface App_Desktop extends ImplicitAny<nexacro.Application> {
+interface App_Desktop extends ImplicitAny<nexacro.Application>, AppVariables {
 
     mainframe: ImplicitAny<nexacro.MainFrame> & { 
         VFSet01: ImplicitAny<nexacro.VFrameSet> & {

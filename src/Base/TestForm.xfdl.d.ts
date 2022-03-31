@@ -1,13 +1,13 @@
 // Type definitions for Nexacro N
 // TypeScript Version: 3.8
 
-declare class TestForm extends nexacro.Form {
+namespace Base {
+    type ImplicitAny<Base> = Base & Record<string,any>;
+    interface TestForm extends ImplicitAny<nexacro.Form> {
 
-    constructor();
+        Button00: Button;
+        Combo00: Combo;
+        FileUpload00: FileUpload;
 
-    Button00: nexacro.Button;
-    Combo00: nexacro.Combo;
-    FileUpload00: nexacro.FileUpload;
-
-    //[s: string]: any;
+    };
 }

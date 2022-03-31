@@ -1,5 +1,6 @@
 
 /// <reference path="./App_Desktop.xadl.d.ts" />
+
 export default function (this: App_Desktop) {
 
     //(this as any).VFSet01;
@@ -12,6 +13,11 @@ export default function (this: App_Desktop) {
     this.MdiFrame;
     this.BottomFrame;
     this.WorkFrame;
+
+    let btn00:Button = new Button;
+let f00:Base.TestForm;
+this.Variable0 = 'aaa';
+
 
     // @ts-ignore
     this.Application_onload = function(obj:nexacro.Application, e:nexacro.LoadEventInfo)
